@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Music Keep-Alive",
+  "version": "1.0",
+  "description": "Prevents YouTube Music from pausing due to inactivity.",
+  "content_scripts": [
+    {
+      "matches": ["https://music.youtube.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
